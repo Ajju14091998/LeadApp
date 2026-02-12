@@ -79,17 +79,18 @@ const AllTasksScreen = () => {
 export default AllTasksScreen;
 
 const styles = StyleSheet.create({
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingTop: 20,
+    paddingBottom: 20,
+  },
   container: {
     flex: 1,
     backgroundColor: '#F9F9F9',
     paddingHorizontal: 20,
-    paddingTop: 30,
-  },
-  header: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    marginBottom: 20,
+    paddingTop: 40,
   },
   headerTitle: {
     fontSize: 20,

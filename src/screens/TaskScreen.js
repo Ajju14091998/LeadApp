@@ -233,17 +233,12 @@ const TaskScreen = () => {
 export default TaskScreen;
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#F9F9F9',
-    paddingHorizontal: 16,
-    paddingTop: 40,
-  },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: 20,
+    paddingTop: 20,
+    paddingBottom: 20,
   },
   logo: {
     width: 100,
@@ -257,6 +252,13 @@ const styles = StyleSheet.create({
     width: 36,
     height: 36,
     borderRadius: 18,
+  },
+
+  container: {
+    flex: 1,
+    backgroundColor: '#F9F9F9',
+    paddingHorizontal: 20,
+    paddingTop: 40,
   },
   searchBar: {
     flexDirection: 'row',

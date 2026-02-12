@@ -11,6 +11,7 @@ import {
 import Icon from 'react-native-vector-icons/Feather';
 import { useNavigation } from '@react-navigation/native';
 
+
 const summaryData = [
   { title: 'Total Leads', count: 1642 },
   { title: 'Total Clients', count: 3642 },
@@ -148,17 +149,12 @@ const HomeScreen = () => {
 export default HomeScreen;
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#F9F9F9',
-    paddingHorizontal: 20,
-    paddingTop: 30,
-  },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: 20,
+    paddingTop: 20,
+    paddingBottom: 20,
   },
   logo: {
     width: 100,
@@ -172,6 +168,13 @@ const styles = StyleSheet.create({
     width: 36,
     height: 36,
     borderRadius: 18,
+  },
+
+  container: {
+    flex: 1,
+    backgroundColor: '#F9F9F9',
+    paddingHorizontal: 20,
+    paddingTop: 40,
   },
   cardScroll: {
     paddingVertical: 8,

@@ -67,9 +67,7 @@ export default function CustomTabBarButton() {
                     style={styles.option}
                     onPress={() => {
                       toggleModal();
-                      console.log('Task pressed');
-                      // Example navigation:
-                      // navigation.navigate('CreateTaskScreen');
+                      navigation.navigate('Task', { screen: 'AddTask' }); 
                     }}
                   >
                     <Text style={styles.optionText}>Task</Text>

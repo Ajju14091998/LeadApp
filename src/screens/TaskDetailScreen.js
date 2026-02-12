@@ -168,17 +168,19 @@ const TaskDetailsScreen = () => {
 export default TaskDetailsScreen;
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#FFFFFF',
-    paddingHorizontal: 20,
-    paddingTop: 40,
-  },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: 24,
+    paddingTop: 20,
+    paddingBottom: 20,
+  },
+
+  container: {
+    flex: 1,
+    backgroundColor: '#F9F9F9',
+    paddingHorizontal: 20,
+    paddingTop: 40,
   },
   headerTitle: {
     fontSize: 20,

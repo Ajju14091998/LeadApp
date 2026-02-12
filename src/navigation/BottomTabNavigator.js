@@ -6,6 +6,7 @@ import HomeStack from "../navigation/HomeStack";
 import ClientScreen from "../screens/ClientScreen";
 import TaskScreen from "../screens/TaskScreen";
 import LeadStack from "../navigation/LeadStack";
+import ClientStack from "../navigation/ClientStack";
 import HomeIcon from "../assets/icons/Home";
 import FileText from "../assets/icons/Lead";
 import Client from "../assets/icons/Client";
@@ -71,7 +72,7 @@ export default function BottomTabNavigator() {
 
       <Tab.Screen
         name="Client"
-        component={ClientScreen}
+        component={ClientStack}
         options={{
           tabBarIcon: ({ focused }) => (
             <Client
